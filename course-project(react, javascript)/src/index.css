@@ -1,0 +1,36 @@
+/* @import-normalize; */
+
+/* #region general*/
+* {
+  /* calculate the element width according to its border */
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(225, 106, 42);
+}
+
+main {
+  flex: 1;
+}
+
+/* #root,
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: min(80%, 1000px);
+  margin: 0 auto;
+} */
+
+img {
+  display: block;
+  /* keep the image from pixelation */
+  max-width: 100%;
+  /*  override the default height value of the html file */
+  height: auto;
+}
+
+/* #endregion general*/ ;

@@ -1,0 +1,21 @@
+.person {
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0.5em;
+  grid-column: 1/4;
+  display: grid;
+}
+
+.elements p {
+  font-size: 2rem;
+}
+
+img {
+  border-radius: 50%;
+  grid-row-start: 1;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 3fr;
+  text-align: center;
+}

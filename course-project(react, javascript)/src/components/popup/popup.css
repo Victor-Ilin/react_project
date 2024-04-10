@@ -1,0 +1,27 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay .popup {
+  background: #fff;
+  padding: 2em;
+  border-radius: 5px;
+}
+
+.overlay .close {
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}

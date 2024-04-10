@@ -1,0 +1,38 @@
+export const data = [
+  {
+    name: "John Brown",
+    phone: "054999888",
+    age: 25,
+    address: "1st avenue",
+    email: "john@gmail.com",
+    description: "It's John",
+    image: "http://i.pravatar.cc/150?img=39",
+  },
+  {
+    name: "Jessica Brown",
+    phone: "054999777",
+    age: 25,
+    address: "1st avenue",
+    email: "jess@gmail.com",
+    description: "It's Jess",
+    image: "http://i.pravatar.cc/150?img=40",
+  },
+  {
+    name: "Duke Ellington",
+    phone: "054666666",
+    age: 48,
+    address: "66st avenue",
+    email: "dukeTheKing@gmail.com",
+    description: "Very good man",
+    image: "http://i.pravatar.cc/150?img=2",
+  },
+  {
+    name: "Lucky",
+    phone: "054777777",
+    age: 13,
+    address: "13st avenue",
+    email: "luckyman@gmail.com",
+    description: "",
+    image: "http://i.pravatar.cc/150?img=45",
+  },
+];

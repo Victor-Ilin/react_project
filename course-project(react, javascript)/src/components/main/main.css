@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  width: min(80%, 800px);
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: rgb(227, 131, 79);
+}
+
+.main .icon {
+  font-size: 4rem;
+}
